@@ -100,7 +100,7 @@ app.get('/gg', (req, res) => {
 
 
 // Start the server
-const hostname = '192.168.0.109';
+const hostname = '';
 
 const http = require('http');
 /* 
@@ -121,7 +121,7 @@ server.listen(port, hostname, () => {
 
 
 const port = process.env.PORT || 3000;
-app.listen(port,'192.168.0.109', () => {
+app.listen(port,'', () => {
   console.log(`Server listening on port ${port}`);
 });
 
